@@ -22,5 +22,6 @@ O circuito simula a sequência de luzes de uma largada de corrida:
 
 ---
 
-## 🔌 Esquema do Circuito
+## 🔌 Link para teste e visualização do esquema do circuito 
 
+[link para o projeto no tinkercad](https://www.tinkercad.com/things/2itAsYh4sHw-sistema-largada-com-arduino)
