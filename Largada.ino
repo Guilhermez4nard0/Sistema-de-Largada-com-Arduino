@@ -4,7 +4,8 @@ int led2 = 9;
 int led3 = 10;
 int led4 = 11;
 int led5 = 12;
-  
+
+
   void setup() {
     pinMode(led1, OUTPUT);
     pinMode(led2, OUTPUT);
@@ -14,22 +15,17 @@ int led5 = 12;
   }
 
 
-
 void loop () {
 
 
   digitalWrite(led1,HIGH);
   delay(1000);
-    
   digitalWrite(led2, HIGH);
-  delay(1000);
-    
+  delay(1000);  
   digitalWrite(led3, HIGH);
   delay(1000);
-    
   digitalWrite(led4, HIGH);
   delay(1000);
-  
   digitalWrite(led5,HIGH);
   delay(1000);
   
@@ -39,6 +35,7 @@ void loop () {
      digitalWrite(led3,LOW);
      digitalWrite(led4,LOW);
      digitalWrite(led5,LOW);
+
   
   largada = random(500, 5000);
   delay(largada);
